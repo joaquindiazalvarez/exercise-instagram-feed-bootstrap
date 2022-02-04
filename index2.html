@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Gowenlad's Influences</title>
+</head>
+<body class="bg-light">
+    <!--NavBar-->
+    <div class="container-fluid position-fixed">
+        <div class="row">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+                <div class="col-1"></div>
+                <div class="col-8">
+                    <!--Logo Instagram-->
+                    <a class="navbar-brand" href="#">
+                    <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/instagram_logo_icon_170643.png" alt="" width="110" height="48" class="d-inline-block align-text-top">
+                    </a>
+                </div>
+                <div class="col">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a new post
+                    </button>
+                </div>
+                <div class="col">
+                    <!--Dropdown-->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                            </svg>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--Pills-->
+    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
+                </svg>
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+                    <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+                </svg>
+            </button>
+        </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+        <!--Vista 1-->
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <!--Begin of content-->
+            <div class="content">
+                <!--Photo 1-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                    <div class="col-3"></div>
+                        <div class="col-6 bg-white">
+                            <div class="row p-2">
+                                <div class="col-10">
+                                    <!--Title-->
+                                    <h4>Camel - Moonmadness</h4>
+                                </div>
+                                <div class="col">
+                                    <h4 class="text-secondary text-end">28/1</h4> 
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="https://i0.wp.com/musicaficionado.blog/wp-content/uploads/2017/12/Moonmadness-Front-cover.jpg" alt="Moonmadness" height="700" width="700">
+                            <h4 class="p-2">23 Likes</h4>
+                            <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                            <div class="row">
+                                <div class="col-1 text-secondary text-center">
+                                    <h4>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </h4>
+                                </div>
+                                <div class="col text-secondary">
+                                    <h4>Comment</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Right Column -->
+                    <div class="col-3 bg-light"></div>    
+                </div>
+                </div>
+                <!--Photo 2-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>Egg - The polite Force</h4>
+                                        </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://img.discogs.com/fTGTer8cQNQUOwKMX2ghSWPdvsM=/fit-in/520x520/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-502150-1265138782.jpeg.jpg" alt="The Polite Force" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 3-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>Supersister - Pudding en Gisteren</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://img.discogs.com/mcIkkEgD2-jo3M7tE5g5icCDBds=/fit-in/600x585/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1753197-1402826047-6935.jpeg.jpg" alt="Pudding en Gisteren" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 4-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>King Crimson - Discipline</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://img.discogs.com/xMlxBJqR9pVIZJRAzjGPNngzw8c=/fit-in/600x602/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1388135-1433638205-9647.jpeg.jpg" alt="Discipline" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 5-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>Los Prisioneros - Pateando Piedras</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/XFENPR5WCJBQ7JK6YT77XXSMTA.jpg" alt="Pateando Piedras" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 6-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>Soft Machine - Four</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://img.cdandlp.com/2019/04/imgL/119500737.jpg" alt="Four" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 7-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>Yes - Close to the edge</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://img.discogs.com/kHjEHeQ7xtdQD9FlLrwVWB8fSjU=/fit-in/600x590/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1124164-1193969698.jpeg.jpg" alt="Close to the edge" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 8-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>Genesis - Wind and Wuthering</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://m.media-amazon.com/images/I/61jj0M10kML._SX355_.jpg" alt="Wind And Wuthering" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 9-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                    <!--Title-->
+                                    <h4>Gentle Giant - Three Friends</h4>
+                                </div>
+                                <div class="col">
+                                    <h4 class="text-secondary text-end">28/1</h4> 
+                                </div>
+                            </div>
+                                <img class="img-fluid" src="https://img.discogs.com/YyMgtbW9X4QuGhye8Flf_w50ni0=/fit-in/600x571/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-866779-1167140204.jpeg.jpg" alt="Three Friends" height="700" width="700">
+                            <h4 class="p-2">23 Likes</h4>
+                            <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                            <div class="row">
+                                <div class="col-1 text-secondary text-center">
+                                    <h4>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                        </svg>
+                                    </h4>
+                                </div>
+                                <div class="col text-secondary">
+                                    <h4>Comment</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Right Column -->
+                    <div class="col-3 bg-light"></div>    
+                </div>
+                </div>
+                <!--Photo 10-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>National Health - D.S. al Coda</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://i.discogs.com/7kX5zYgaBeX1t026fqxswKE8RaZ4OsDMHL5TJDHvg1A/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWltYWdlcy9SLTE4/OTQ4MjUtMTM5Nzc0/OTA0OC0xMzI5Lmpw/ZWc.jpeg" alt="D.S. al Coda" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 11-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>Kenso - Kenso II</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://i.discogs.com/4GoizNpUDNGI38dBOvjtUm6ogv1yX-u4UvccuFWRLdo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWltYWdlcy9SLTMw/MjIwMzQtMTU4Nzg3/NzE1MS01ODM1LnBu/Zw.jpeg" alt="Kenso II" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+                <!--Photo 12-->
+                <div class="container p-4 my-1">
+                    <div class="row">
+                        <div class="col-3"></div>
+                            <div class="col-6 bg-white">
+                                <div class="row p-2">
+                                    <div class="col-10">
+                                        <!--Title-->
+                                        <h4>Yes - Relayer</h4>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="text-secondary text-end">28/1</h4> 
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="https://img.discogs.com/1kdBWgGmzShLlsF4vC6ioVcx-Xw=/fit-in/600x600/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-1907058-1500197045-5076.jpeg.jpg" alt="Relayer" height="700" width="700">
+                                <h4 class="p-2">23 Likes</h4>
+                                <p>This is my first photo of the feed. This is a multi-line text for testing pruposes. Im learning code with #4Geeks Academy</p>
+                                <div class="row">
+                                    <div class="col-1 text-secondary text-center">
+                                        <h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                        </h4>
+                                    </div>
+                                    <div class="col text-secondary">
+                                        <h4>Comment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Right Column -->
+                        <div class="col-3 bg-light"></div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Vista 2-->
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <!--Begin of Content-->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://i0.wp.com/musicaficionado.blog/wp-content/uploads/2017/12/Moonmadness-Front-cover.jpg" alt="Moonmadness" height="700" width="700">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://img.discogs.com/fTGTer8cQNQUOwKMX2ghSWPdvsM=/fit-in/520x520/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-502150-1265138782.jpeg.jpg" alt="The Polite Force" height="700" width="700">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://m.media-amazon.com/images/I/71qHjBcXuDL._SX355_.jpg" alt="Pudding en Gisteren" height="700" width="700"> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://img.discogs.com/xMlxBJqR9pVIZJRAzjGPNngzw8c=/fit-in/600x602/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1388135-1433638205-9647.jpeg.jpg" alt="Discipline" height="700" width="700">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/XFENPR5WCJBQ7JK6YT77XXSMTA.jpg" alt="Pateando Piedras" height="700" width="700">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://img.cdandlp.com/2019/04/imgL/119500737.jpg" alt="Four" height="700" width="700">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://img.discogs.com/kHjEHeQ7xtdQD9FlLrwVWB8fSjU=/fit-in/600x590/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1124164-1193969698.jpeg.jpg" alt="Close to the edge" height="700" width="700">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://m.media-amazon.com/images/I/61jj0M10kML._SX355_.jpg" alt="Wind And Wuthering" height="700" width="700">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://americadvd.cl/42676/gentle-giant-three-friends.jpg" alt="Three Friends" height="700" width="700">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://i.discogs.com/7kX5zYgaBeX1t026fqxswKE8RaZ4OsDMHL5TJDHvg1A/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWltYWdlcy9SLTE4/OTQ4MjUtMTM5Nzc0/OTA0OC0xMzI5Lmpw/ZWc.jpeg" alt="D.S. al Coda" height="700" width="700">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://i.discogs.com/4GoizNpUDNGI38dBOvjtUm6ogv1yX-u4UvccuFWRLdo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWltYWdlcy9SLTMw/MjIwMzQtMTU4Nzg3/NzE1MS01ODM1LnBu/Zw.jpeg" alt="Kenso II" height="700" width="700">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img class="img-fluid" src="https://img.discogs.com/1kdBWgGmzShLlsF4vC6ioVcx-Xw=/fit-in/600x600/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-1907058-1500197045-5076.jpeg.jpg" alt="Relayer" height="700" width="700">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea"></label>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-1 ms-2">
+                        <button type="button" class="btn btn-light">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-light">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                            </svg>
+                    </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    <!--______Footer______-->
+    <footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </footer>
+</body>
+</html>
