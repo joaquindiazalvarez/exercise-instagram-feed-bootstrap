@@ -1,0 +1,7 @@
+.nav-pills .nav-link.active {
+    background-color: rgb(97, 97, 97);
+    
+}
+.nav-link, .nav-link:hover{
+    color: rgb(97, 96, 96);
+}
